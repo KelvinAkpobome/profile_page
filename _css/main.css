@@ -1,0 +1,154 @@
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align:baseline;
+	font: inherit;
+}
+
+
+/*Header styles*/
+#pageHeader {
+	background: rgb(100, 98, 102);
+	padding-top: 5px;
+	overflow: hidden;
+	margin-bottom: 1.5em;
+	padding-left: 400px;
+	
+}
+header h1 {
+	font-style: italic;
+	font-weight:normal;
+	font-size: 3em;
+	color: #fff;
+	float: middle;
+	letter-spacing:.1em;
+	line-height: 105px;
+}
+
+/*write a selector that targets the dates inside the upcoming dates list on the index.htm page*/
+li > span {
+	font-weight: bold;
+}
+
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+
+/*footer styles*/
+/*Header styles*/
+#pageFooter {
+	background: rgb(100, 98, 102);
+	padding-top: 5px;
+	overflow: hidden;
+	margin-bottom: 1.5em;
+	padding-left: 400px;
+}
+
+#pageFooter {
+	background: rgb(173, 169, 130);
+	padding-top: 1.5em;
+}
+
+#pageFooter label {
+	display: block;
+	font-size: 1.2em;
+	text-transform:uppercase;
+}
+
+#pageFooter p {
+	float: right;
+	clear: right;
+	margin-right: 3.9%;
+	text-align: right;
+}
+
+#pageFooter a {
+	display:block;
+	height: 100px;
+	line-height: 100px;
+	border: none;
+	color:rgb(76, 67, 65);
+	padding-left: 95px;
+	background: url(../_images/tweet_90.png) no-repeat;
+}
+
+#pageFooter form {
+	float: left;
+	margin-left: 50px;
+	display: inline;
+	
+}
+
+#pageFooter {
+	clear:both;
+	overflow:hidden;
+	height: 150px;
+}
+
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	position: relative;
+	background: #fff;
+	color: rgb(76, 67, 65);
+	font-weight:normal;
+	font-style:normal;
+}
+/*article styles*/
+article section {
+	border-bottom: 2px solid rgb(76, 67, 65);
+	margin-bottom: 2em;
+}
+
+article h1, article h2, article h3 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+article > h1 {
+	font-size: 1.8em;
+	border-bottom: 2px solid rgb(76, 67, 65);
+	margin-bottom: 1.5em;
+	background: url(../_images/icon_sprites_50.png) no-repeat
+}
+
+article h2 {
+	font-size: 1.4em;
+	border-bottom: 2px solid rgb(76, 67, 65);
+	margin-top: 1.5em;
+	
+}
+
+article h2 a {
+	color: rgb(76, 67, 65);
+	border: none;
+}
+
+article p {
+	font-size:1em;
+	margin: 1.2em 0;
+}
+article ul {
+	margin:0 0 1em 50px;
+}
+#home h1 {
+	background-position: right -790px;
+	padding: 20px 0 5px;
+}
+
+article h2 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 1.2em;
+	text-align: center;
+	margin-bottom: 1em;
+	clear: both;
+}
+
+aside h2 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 1.2em;
+	text-align: center;
+	margin-bottom: 1em;
+	clear: both;
+}

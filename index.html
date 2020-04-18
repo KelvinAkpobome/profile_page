@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome to Desolve</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link href="_css/main.css" rel="stylesheet" media="screen, projection">
+</head>
+<body>
+<header id="pageHeader">
+    <h1>Kelvin's Personal Page</h1>
+</header>
+
+<section id="content">
+ 
+  <article id="home">
+    <section class="news">
+    <h2>Kelvin's bio-data</h2>
+    <ul>
+    <li>Name | <span>Akpobome Oke Kelvin</span></li>
+    <li>State of Origin | <span>Delta</span></li>
+    <li>Date of Birth | <span>March 14, 1990</span></li>
+    <li>Address | <span>Plot 66, Peter Odili Road, Port Harcourt</span></li>
+    <li>Occupation | <span>Realtor</span></li>
+    <li>Home Town | <span>Emevor</span></li>
+	<li>Slack ID | <span>Kelvinakpobome</span></li>
+    </ul>
+	 <img src="_images/kelvin.jpg" width="200" height="200" alt="">
+	<aside>
+    <section class="contest">
+      <h2>Summary About Myself</h2>
+      <p>People find me to be an upbeat, self-motivated team player with excellent communication skills. In my spare time, I enjoy going to the gym to stay fit and healthy. I also enjoy keeping up to date with the current affairs, both national and international events</p>
+    </section>
+  </aside>
+	<form action="processform.php" method="POST">
+                <p>
+                    <label for="first_name">First Name</label><br />
+                     <input type="text" name="first_name" placeholder="Enter Your First Name" />
+                </p>
+        
+                <p>
+                    <label for="last_name">Last Name</label><br />
+                     <input type="text" name="last_name" placeholder="Enter Your Last Name" />
+                </p>
+        
+                <p>
+                    <label for="email">Email</label><br />
+                    <input type="email" name="email" placeholder="Enter Your Email" required />
+                </p>
+        
+                <p>
+                    <label for="email">Your Message</label><br />
+                    <textarea name="message" style="font-family: Century Gothic;width: 200px;height:100px"></textarea>
+                </p>
+                 <button type="submit" style="background: blue;color: white;font-family: Century Gothic;border: none;padding:10px;border-radius: 5px;">Send Message</button>
+            </form>
+  </article>
+</body>
+</html>
